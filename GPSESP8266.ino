@@ -128,10 +128,10 @@ void parseData(String buff) {
         // The result of AT Command is "OK"
     }
 }
-//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//________________________________________________________________________________________________________________________________________
 
 // 
-//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
 void extractSms(String buff) {
     unsigned int index;
 
@@ -153,16 +153,11 @@ void extractSms(String buff) {
     buff = "";
     msg.toLowerCase();
 
-    //Serial.println("----------------------------------");
-    //Serial.println(smsStatus);
-    //Serial.println(senderNumber);
-    //Serial.println(receivedDate);
-    //Serial.println(msg);
-    //Serial.println("----------------------------------");
+   
 }
-//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//_________________________________________________________________________________________________________________________________________
 
-//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//_______________________________________________________________________________________________________________________________________
 void sendLocation()
  {
     //-----------------------------------------------------------------
